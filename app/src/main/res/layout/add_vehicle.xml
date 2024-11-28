@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/contactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City" />
+
+        <EditText
+            android:id="@+id/adDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad Date" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price" />
+
+        <EditText
+            android:id="@+id/make"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Make" />
+
+        <EditText
+            android:id="@+id/model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Model" />
+
+        <EditText
+            android:id="@+id/transmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Transmission" />
+
+        <EditText
+            android:id="@+id/fuelType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fuel Type" />
+
+        <EditText
+            android:id="@+id/modelYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Model Year" />
+
+        <Button
+            android:id="@+id/attachImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attach Image" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Save" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Vehicle Image -->
+        <ImageView
+            android:id="@+id/dialogVehicleImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/car"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/dialogName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <!-- Model -->
+        <TextView
+            android:id="@+id/dialogModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model"
+            android:paddingBottom="8dp" />
+
+        <!-- Model Year -->
+        <TextView
+            android:id="@+id/dialogModelYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model Year"
+            android:paddingBottom="8dp" />
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/dialogPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="#FF5722"
+            android:paddingBottom="8dp" />
+
+        <!-- Fuel Type -->
+        <TextView
+            android:id="@+id/dialogFuelType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuel Type"
+            android:paddingBottom="8dp" />
+
+        <!-- Transmission -->
+        <TextView
+            android:id="@+id/dialogTransmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transmission"
+            android:paddingBottom="8dp" />
+
+        <!-- City -->
+        <TextView
+            android:id="@+id/dialogCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:paddingBottom="8dp" />
+
+        <!-- Contact -->
+        <TextView
+            android:id="@+id/dialogContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:paddingBottom="8dp" />
+
+        <!-- Make -->
+        <TextView
+            android:id="@+id/dialogMake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make"
+            android:paddingBottom="8dp" />
+
+        <!-- Ad Date -->
+        <TextView
+            android:id="@+id/dialogAdDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ad Date"
+            android:paddingBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

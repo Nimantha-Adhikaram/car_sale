@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="16dp">
+
+    <!-- Title for Login -->
+<TextView
+android:id="@+id/titleTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="32dp"
+android:text="LogIn"
+android:textColor="@android:color/white"
+android:textSize="26sp"
+android:textStyle="bold"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- Email Field Group -->
+    <RelativeLayout
+        android:id="@+id/emailContainer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="44dp"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:background="@drawable/rounded_edittext">
+
+        <ImageView
+            android:id="@+id/emailIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/user"
+            android:tint="#BDBDBD" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/emailIcon"
+            android:layout_alignParentEnd="true"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:textColor="#757575"
+            android:textColorHint="#BDBDBD"
+            android:paddingStart="8dp"
+            android:background="@android:color/transparent"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <!-- Password Field Group -->
+    <RelativeLayout
+        android:id="@+id/passwordContainer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailContainer"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:background="@drawable/rounded_edittext">
+
+        <ImageView
+            android:id="@+id/passwordIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/padlock"
+            android:tint="#BDBDBD" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/passwordIcon"
+            android:layout_alignParentEnd="true"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:autofillHints="newPassword"
+            android:textColor="#757575"
+            android:textColorHint="#BDBDBD"
+            android:paddingStart="8dp"
+            android:background="@android:color/transparent"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="#39AFEA"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#39AFEA"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
